@@ -23,3 +23,18 @@
 - High Frequency: ≥ 8
 - Medium Frequency: 4 to < 8
 - Low Frequency: < 4
+
+
+### Question 3 - Customer Retention and Drop-off Rate
+
+**Goal:** Understand how many customers remain active after 6 months of joining.
+
+**Method:**
+- Grouped customers by the month they joined
+- Checked if they had a transaction at least 6 months later
+- Counted how many stayed active vs. dropped off
+- Calculated monthly retention rate
+
+**Formula:**
+retention_rate = (customers retained after 6 months / new customers) * 100
+README.md
