@@ -58,3 +58,17 @@ README.md
 - monthly_revenue
 - previous_month_revenue
 - revenue_trend
+
+
+### Question 5 - Data Quality Check
+
+**Goal:** Identify common data quality issues in the transactions dataset.
+
+**Checks Performed:**
+1. **Duplicate Records:** Same customer, date, and amount appearing more than once.
+2. **Missing Values:** NULLs in important fields like customer_id, transaction_date, or amount.
+3. **Negative Amounts:** Transaction values less than zero.
+
+**Why This Matters:**
+These issues can affect analytics and decisions. Fixing them ensures clean and trustworthy data.
+
