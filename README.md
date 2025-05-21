@@ -38,3 +38,23 @@
 **Formula:**
 retention_rate = (customers retained after 6 months / new customers) * 100
 README.md
+
+### Question 4 - Customer Revenue Growth
+
+**Goal:** Analyze how each customer’s revenue is changing over time.
+
+**Method:**
+- Grouped all transactions by customer and month
+- Calculated total revenue per month
+- Used `LAG()` to get the revenue from the previous month
+- Compared current vs previous to label trends:
+  - Increasing
+  - Decreasing
+  - No Change
+
+**Output includes:**
+- customer_id
+- revenue_month
+- monthly_revenue
+- previous_month_revenue
+- revenue_trend
